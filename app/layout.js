@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
     <html lang="ar" dir="rtl" data-theme="light">
       <body className={`${ibmPlexSansArabic.variable} antialiased`}>
         <Navbar />
-        {children}
+        <main className="min-h-[45vh]">{children}</main>
         <Footer />
       </body>
     </html>
