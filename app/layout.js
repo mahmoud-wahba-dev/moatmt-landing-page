@@ -4,7 +4,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
 const ibmPlexSansArabic = IBM_Plex_Sans_Arabic({
-  weight: ["400", "700"], // Add any combination of legal weights as strings
+  weight: ["400", "500", "600", "700"], // Add any combination of legal weights as strings
 
   subsets: ["arabic"],
   variable: "--font-ibm-plex-sans-arabic",
