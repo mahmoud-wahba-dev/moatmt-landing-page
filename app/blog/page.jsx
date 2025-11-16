@@ -21,8 +21,8 @@ export default function BlogPage() {
 
       <section>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-72">
-          {posts.map((p) => (
-            <BlogCard key={p.slug} post={p} />
+          {posts.map((p, index) => (
+            <BlogCard key={index} post={p} />
           ))}
         </div>
       </section>

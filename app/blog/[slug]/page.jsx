@@ -10,6 +10,7 @@ export async function generateStaticParams() {
 
 export function generateMetadata({ params }) {
   const post = getPostBySlug(params.slug);
+  
   if (!post) return { title: "مقال" };
   return {
     title: `${post.title} — مدونة مؤتمت`,
