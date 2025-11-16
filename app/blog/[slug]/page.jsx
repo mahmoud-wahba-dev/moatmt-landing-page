@@ -8,9 +8,13 @@ export async function generateStaticParams() {
   return slugs.map((slug) => ({ slug }));
 }
 
-export function generateMetadata({ params }) {
-  const post = getPostBySlug(params.slug);
-  
+export async function generateMetadata({ params }) {
+  // params may be a Promise — await it
+  const resolved = await params;
+  const raw = resolved?.slug;
+  const slug = Array.isArray(raw) ? raw[0] : raw;
+  const post = getPostBySlug(slug);
+
   if (!post) return { title: "مقال" };
   return {
     title: `${post.title} — مدونة مؤتمت`,
@@ -24,8 +28,13 @@ export function generateMetadata({ params }) {
   };
 }
 
-export default function PostPage({ params }) {
-  const post = getPostBySlug(params.slug);
+export default async function PostPage({ params }) {
+  // await params in case it's a Promise
+  const resolved = await params;
+  const raw = resolved?.slug;
+  const slug = Array.isArray(raw) ? raw[0] : raw;
+
+  const post = getPostBySlug(slug);
 
   if (!post) {
     return (

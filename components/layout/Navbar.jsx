@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="bg-primary text-white">
       <div className="container max-w-full">
         <div className="navbar  shadow-sm max-sm:justify-between">
           <div className="navbar-start">
@@ -59,13 +59,13 @@ const Navbar = () => {
             <div className="navbar-center hidden lg:flex">
               <ul className="menu menu-horizontal px-1">
                 <li>
-                  <Link href="/">الرئيسية</Link>
+                  <Link href="/" className="font-semibold text-base ">الرئيسية</Link>
                 </li>
                 <li>
-                  <Link href="/">كيف يشتغل مؤتمت؟</Link>
+                  <Link href="/" className="font-semibold text-base">كيف يشتغل مؤتمت؟</Link>
                 </li>
                 <li>
-                  <Link href="">الأسعار</Link>
+                  <Link href="" className="font-semibold text-base">الأسعار</Link>
                 </li>
               </ul>
             </div>
@@ -74,11 +74,11 @@ const Navbar = () => {
             <Image src="/logo.svg" alt="Logo" width={133} height={31} />
           </Link>
 
-          <div className="navbar-end gap-6 max-sm:hidden">
-            <Link className="btn btn-secondary" href="/">
+          <div className="navbar-end gap-6 max-sm:hidden me-2">
+            <Link className="btn btn-secondary font-semibold text-base rounded-11px p-2" href="/" >
               تسجيل دخول
             </Link>
-            <Link className="btn text-primary bg-white" href="/">
+            <Link className="btn text-primary bg-white font-semibold text-base rounded-11px p-2" href="/">
               تسجيل جديد
             </Link>
           </div>
