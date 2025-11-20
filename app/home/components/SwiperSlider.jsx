@@ -19,7 +19,7 @@ const logos = [
 
 export default function SwiperSlider() {
   return (
-    <div dir="rtl" className="w-full overflow-x-hidden py-8">
+    <div  className="w-full overflow-x-hidden py-8">
       <Swiper
         modules={[Autoplay, FreeMode]}
         dir="rtl"
