@@ -33,7 +33,7 @@ export default function VideoSec() {
         </div>
 
         <div className="mx-auto max-w-6xl">
-          <div className="relative w-full aspect-[16/7] rounded-16px overflow-hidden ">
+          <div className="relative w-full aspect-[16/7] rounded-16px overflow-hidden max-sm:aspect-video border border-white/20 shadow-lg bg-black">
             {!playing ? (
               <>
                 {/* poster + play button */}

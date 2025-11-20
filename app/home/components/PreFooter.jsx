@@ -5,7 +5,7 @@ import React from "react";
 
 const PreFooter = () => {
   return (
-    <section className="bg-[#00481C] pt-44 text-white text-center rounded-65px overflow-hidden">
+    <section className="bg-[#00481C] pt-44 text-white text-center rounded-65px overflow-hidden mt-6 max-sm:pt-24 max-sm:rounded-[30px]">
       <div className="container">
         <p className="font-semibold  mb-6 ">مؤتمت</p>
         <h2 className="font-semibold text-52px  mb-5">

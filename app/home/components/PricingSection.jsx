@@ -161,9 +161,9 @@ export default function PricingSection() {
 
   return (
     <section className="py-16  ">
-      <div className="container mx-auto">
+      <div className="">
         {/* Tabs */}
-        <div className="flex flex-wrap justify-center mb-8 bg-white/9 w-fit rounded-40px max-w-md mx-auto p-2.5 backdrop-blur-3xl mb-14">
+        <div className="flex flex-wrap justify-center gap-y-4 mb-8 bg-white/9 w-fit rounded-40px max-w-md mx-auto p-2.5 backdrop-blur-3xl mb-14">
           {tabs.map((tab) => (
             <button
               key={tab.value}
@@ -284,7 +284,7 @@ export default function PricingSection() {
                     {plan.checkoutOptions.map((opt, k) => (
                       <div
                         key={`${opt.label}-${k}`}
-                        className={`${opt.bg} rounded-12px py-4 flex flex-col items-center justify-center text-center`}
+                        className={`${opt.bg} rounded-12px py-4 flex flex-col gap-2 items-center justify-center text-center`}
                       >
                         <div className="h-6 mb-1.5">
                           <Image

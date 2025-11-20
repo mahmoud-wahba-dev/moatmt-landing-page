@@ -19,7 +19,7 @@ const Testimonial = () => {
           </p>
         </div>
 
-        <div className="bg-[#F5F5F5] p-16 rounded-[105px] shadow-testimonialShadow  ">
+        <div className="bg-[#F5F5F5] p-16 rounded-[105px] shadow-testimonialShadow max-sm:p-6 max-sm:rounded-[50px]">
           <TestimonialSlider />
         </div>
       </div>

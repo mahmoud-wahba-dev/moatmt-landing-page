@@ -21,7 +21,7 @@ export default function MoatmtImgsSlider() {
   const pagRef = useRef(null);
 
   return (
-    <div className="rounded-2xl p-8 pb-20 relative bg-[#1F533C]">
+    <div className="rounded-2xl p-8 pb-20 relative bg-[#1F533C] max-sm:p-0">
       <h5 className="font-semibold text-3xl md:text-52px mb-7 text-white text-center">
         لوحة التحكم الرئيسية
       </h5>
@@ -79,7 +79,7 @@ export default function MoatmtImgsSlider() {
       >
         {slideImages.map((img, i) => (
           <SwiperSlide key={i}>
-            <div className="rounded-[20px] overflow-hidden bg-white h-[800px] p-6 ">
+            <div className="rounded-[20px] overflow-hidden bg-white h-[800px] p-6 max-sm:h-auto ">
               <Image
                 src={img}
                 alt={`Slide ${i + 1}`}

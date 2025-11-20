@@ -19,7 +19,7 @@ const FirstCard = () => {
         />
       </div>
 
-      <div className="absolute bottom-0 end-24 ">
+      <div className="absolute bottom-0 end-24 max-sm:scale-50 max-sm:hidden ">
         <Image
           src="/why_moatmt/robot.webp"
           alt="Plant"
@@ -37,7 +37,7 @@ const FirstCard = () => {
         />
       </div>
 
-      <div className="absolute top-[25%] end-8 -translate-y-1/2  ">
+      <div className="absolute top-[25%] end-8 -translate-y-1/2 max-sm:hidden ">
         <Image
           src="/why_moatmt/black_hint_card1.webp"
           alt="Robot"
@@ -46,7 +46,7 @@ const FirstCard = () => {
         />
       </div>
 
-      <div className="absolute top-[17%] end-[36%] -translate-y-1/2  ">
+      <div className="absolute top-[17%] end-[36%] -translate-y-1/2  max-sm:hidden ">
         <Image
           src="/why_moatmt/first_card_top_icon.webp"
           alt="Robot"
@@ -55,7 +55,7 @@ const FirstCard = () => {
         />
       </div>
 
-      <div className="absolute top-[55%] end-[2%] -translate-y-1/2  ">
+      <div className="absolute top-[55%] end-[2%] -translate-y-1/2   max-sm:hidden ">
         <Image
           src="/why_moatmt/first_card_bottom_icon.webp"
           alt="Robot"

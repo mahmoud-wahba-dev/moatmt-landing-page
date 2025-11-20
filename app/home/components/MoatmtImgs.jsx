@@ -15,7 +15,7 @@ const MoatmtImgs = () => {
           </p>
         </div>
 
-        <div className="bg-[#1F533C] rounded-20px border border-black p-8">
+        <div className="bg-[#1F533C] rounded-20px border border-black p-8 max-sm:p-4">
     
             <MoatmtImgsSlider />
         </div>

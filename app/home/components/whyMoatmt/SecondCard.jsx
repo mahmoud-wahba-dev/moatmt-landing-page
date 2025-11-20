@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const SecondCard = ({ iconSrc, title, description, lastImgSrc }) => {
   return (
-    <div className="bg-white rounded-58px p-14 text-center">
+    <div className="bg-white rounded-58px p-14 text-center h-full">
       <div className="size-16 m-auto mb-10 ">
         <Image
           src={`/why_moatmt/${iconSrc}.svg`}

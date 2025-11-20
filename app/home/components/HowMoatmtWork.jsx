@@ -6,7 +6,7 @@ import { HiOutlineLightningBolt } from "react-icons/hi";
 
 const HowMoatmtWork = () => {
   return (
-    <section className="pt-28 pb-20">
+    <section className=" pb-20">
       <div className="container">
         <div className="text-center text-white">
           <p className="font-semibold  mb-6  ">كيف يشتغل مؤتمت؟</p>
