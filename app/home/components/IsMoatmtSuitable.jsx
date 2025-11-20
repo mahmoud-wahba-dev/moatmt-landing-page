@@ -36,7 +36,7 @@ const IsMoatmtSuitable = () => {
                 ))}
               </div>
 
-              <div className="flex items-center gap-7 mb-10">
+              <div className="flex items-center gap-7 mb-10 max-sm:flex-wrap">
                 <BtnTry />
                 <BtnConsult />
               </div>

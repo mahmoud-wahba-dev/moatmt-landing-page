@@ -34,7 +34,7 @@ const HeroSec = () => {
               <p className="font-normal text-22px  mb-10 text-[#D5D5D5]">
                 كل محادثة فرصة بيع ومؤتمت يعرف يستغلها لك .. هل انت جاهز؟
               </p>
-              <div className="flex items-center gap-7 mb-10">
+              <div className="flex items-center gap-7 mb-10 max-sm:flex-wrap">
                 <BtnTry />
                 <BtnConsult />
               </div>

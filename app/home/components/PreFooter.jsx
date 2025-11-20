@@ -16,7 +16,7 @@ const PreFooter = () => {
           مؤتمت هو نظام ذكاء اصطناعي متكامل يعمل على واتساب، يساعدك في الرد على
           عملاءك لحظيًا وبدون تدخل يدوي.
         </p>
-        <div className="center_flex gap-7 mb-10">
+        <div className="center_flex gap-7 mb-10 max-sm:flex-wrap">
           <BtnTry />
           <BtnConsult />
         </div>

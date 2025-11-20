@@ -2,6 +2,7 @@ import BtnTry from "@/components/ui/BtnTry";
 import Image from "next/image";
 import FirstCard from "./whyMoatmt/FirstCard";
 import SecondCard from "./whyMoatmt/SecondCard";
+import LastCard from "./whyMoatmt/LastCard";
 
 const WhyMoatmt = () => {
   return (
@@ -25,7 +26,7 @@ const WhyMoatmt = () => {
             <div className="lg:col-span-8">
               <FirstCard />
             </div>
-            <div className="col-span-4">
+            <div className="lg:col-span-4">
               <SecondCard
                 iconSrc={"available"}
                 title={"متوفر على مدار الساعة"}
@@ -34,13 +35,43 @@ const WhyMoatmt = () => {
               />
             </div>
 
-            <div className="col-span-4">
+            <div className="lg:col-span-4">
               <SecondCard
                 iconSrc={"available"}
                 title={"متوفر على مدار الساعة"}
                 description="يرد على عملاءك بدون توقف – حتى وقت النوم أو السفر."
                 lastImgSrc={"available_icons"}
               />
+            </div>
+
+            <div className="lg:col-span-4">
+              <SecondCard
+                iconSrc={"available"}
+                title={"متوفر على مدار الساعة"}
+                description="يرد على عملاءك بدون توقف – حتى وقت النوم أو السفر."
+                lastImgSrc={"available_icons"}
+              />
+            </div>
+
+            <div className="lg:col-span-4">
+              <SecondCard
+                iconSrc={"available"}
+                title={"متوفر على مدار الساعة"}
+                description="يرد على عملاءك بدون توقف – حتى وقت النوم أو السفر."
+                lastImgSrc={"available_icons"}
+              />
+            </div>
+
+            <div className="lg:col-span-4">
+              <SecondCard
+                iconSrc={"available"}
+                title={"متوفر على مدار الساعة"}
+                description="يرد على عملاءك بدون توقف – حتى وقت النوم أو السفر."
+                lastImgSrc={"available_icons"}
+              />
+            </div>
+            <div className="lg:col-span-8">
+              <LastCard />
             </div>
           </div>
         </div>

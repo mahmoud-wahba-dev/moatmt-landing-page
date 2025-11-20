@@ -3,7 +3,9 @@
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
-
+html {
+  font-size: clamp(12px, 1vw + 0.5rem, 16px);
+}
 :root {
   /* Primary brand color (used for btn-primary, etc) */
   --primary: #0a381c;

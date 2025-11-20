@@ -4,7 +4,7 @@ import React from "react";
 
 const FirstCard = () => {
   return (
-    <div className="rounded-58px bg-white p-14 relative ">
+    <div className="rounded-58px bg-white p-14 relative h-full ">
       <div className="mb-10">
         <Image src="/why_moatmt/tree.svg" alt="Tree" width={40} height={49} />
       </div>
@@ -28,7 +28,7 @@ const FirstCard = () => {
         />
       </div>
 
-      <div className="absolute top-[35%] start-[35%] -translate-y-1/2 -translate-x-1/2 ">
+      <div className="absolute top-[35%] start-[35%] -translate-y-1/2 -translate-x-1/2 max-sm:hidden ">
         <Image
           src="/why_moatmt/white_hint_card1.webp"
           alt="Robot"
