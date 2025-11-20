@@ -9,12 +9,12 @@ import "swiper/css/autoplay";
 
 const logos = [
   "/partners/partner1.webp",
-  "/partners/partner2.webp",
+  "/partners/cafe.webp",
   "/partners/partner3.webp",
   "/partners/partner4.webp",
   "/partners/partner5.png",
   "/partners/partner6.webp",
-  "/partners/partner7.webp",
+  "/partners/kafa.webp",
 ];
 
 export default function SwiperSlider() {
