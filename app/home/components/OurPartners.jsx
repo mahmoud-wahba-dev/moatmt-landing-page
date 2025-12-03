@@ -3,6 +3,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 const logos = [
+  "/partners/health_labs.png",
+
   "/partners/partner1.webp",
   "/partners/cafe.webp",
   "/partners/partner3.webp",
@@ -60,7 +62,7 @@ const OurPartners = () => {
             // style={{ minHeight: 140, minWidth: 140 }}
           >
             <div
-              className="rounded-full bg-white border border-[#F3F4F6] shadow-[0px_2px_4px_-2px_#0000001A] flex items-center justify-center"
+              className="rounded-full p-4 bg-white border border-[#F3F4F6] shadow-[0px_2px_4px_-2px_#0000001A] flex items-center justify-center"
               style={{ width: 140, height: 140 }}
             >
               <Image
@@ -68,7 +70,7 @@ const OurPartners = () => {
                 alt={`Partner logo ${i + 1}`}
                 width={100}
                 height={100}
-                className="object-contain rounded-full"
+                className="object-contain w-full h-full rounded-full"
               />
             </div>
           </div>
